@@ -19,7 +19,9 @@ export const Overview = () => {
         </div>
       </div>
 
-      <section className="additionals-section"></section>
+      <section className="additionals-section">
+        <div className="additionals-section-left"></div>
+      </section>
     </>
   );
 };
