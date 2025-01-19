@@ -1,4 +1,5 @@
 import "./overview.css";
+import { JarIcon } from "./JarIcon";
 
 export const Overview = () => {
   return (
