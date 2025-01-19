@@ -21,6 +21,7 @@ export const Overview = () => {
 
       <section className="additionals-section">
         <div className="additionals-section-left"></div>
+        <div className="additionals-section-right"></div>
       </section>
     </>
   );
