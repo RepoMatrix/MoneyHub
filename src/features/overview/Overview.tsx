@@ -72,7 +72,25 @@ export const Overview = () => {
               </div>
             </div>
           </div>
+          {/* TRANSACTIONS */}
+          <div className="overview-section-transaction">
+            <header>
+              <h3>Transactions</h3>
+              <div className="transaction-viewall">
+                <p>View All</p>
+                <span></span>
+              </div>
+            </header>
+            <div className="overview-transactions-info">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
         </div>
+
         <div className="additionals-section-right"></div>
       </section>
     </>
