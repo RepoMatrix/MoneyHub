@@ -1,4 +1,4 @@
-import "./overview.css"
+import "./overview.css";
 
 export const Overview = () => {
   return (
@@ -18,6 +18,8 @@ export const Overview = () => {
           <p>$1,700.50</p>
         </div>
       </div>
+
+      <section className="additionals-section"></section>
     </>
-  )
-}
+  );
+};
