@@ -20,7 +20,58 @@ export const Overview = () => {
       </div>
 
       <section className="additionals-section">
-        <div className="additionals-section-left"></div>
+        <div className="additionals-section-left">
+          {/* POTS */}
+          <div className="overview-section-pots">
+            <div className="overview-pots-header">
+              <h3>Pots</h3>
+              <p>See Details</p>
+            </div>
+            <div className="overview-pots-info">
+              <div className="ov-pots-total-saved">
+                <JarIcon />
+                <div className="opts-info">
+                  <p>Total Saved</p>
+                  <span>$850</span>
+                </div>
+              </div>
+              <div className="ov-pots-info-boxes">
+                <div className="opib-top">
+                  <div className="opib-top-left">
+                    <div className="opib-border one"></div>
+                    <div className="opib-items">
+                      <p>Savings</p>
+                      <span>$159</span>
+                    </div>
+                  </div>
+                  <div className="opib-top-right">
+                    <div className="opib-border two"></div>
+                    <div className="opib-items">
+                      <p>Gift</p>
+                      <span>$40</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="opib-bottom">
+                  <div className="opib-bottom-left">
+                    <div className="opib-border three"></div>
+                    <div className="opib-items">
+                      <p>Concert Ticket</p>
+                      <span>$110</span>
+                    </div>
+                  </div>
+                  <div className="opib-bottom-right">
+                    <div className="opib-border four"></div>
+                    <div className="opib-items">
+                      <p>New Notebook</p>
+                      <span>$10</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="additionals-section-right"></div>
       </section>
     </>
